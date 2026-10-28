@@ -13,7 +13,7 @@ recorded here.
 ## Settings
 
 - **Name:** ekalra+ob@meltano.com's workspace
-- **Meltano version:** V4_2
+- **Meltano version:** V3_9
 - **Default environment:** dev
 - **Default data store:** Warehouse
 - **State data store:** Warehouse
