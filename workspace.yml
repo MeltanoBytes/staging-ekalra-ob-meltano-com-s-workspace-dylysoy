@@ -1,5 +1,5 @@
 version: workspaces/v0.2
-meltano_version: V3_9
+meltano_version: V4_2
 app_properties:
   WELCOME_DATASET_ALIAS: welcome
 default_data_store: Warehouse
