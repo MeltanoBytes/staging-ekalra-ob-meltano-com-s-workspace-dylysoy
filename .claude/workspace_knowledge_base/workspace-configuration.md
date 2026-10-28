@@ -24,6 +24,7 @@ recorded here.
 
 ## Plugins
 
+- extractor `tap-meltano-cloud` (meltanolabs) — `git+https://github.com/MeltanoLabs/tap-meltano-cloud.git@v0.1.6`
 - file `analyze-dbt-models` (matatika) — `git+https://github.com/Matatika/analyze-dbt-models@v0.4.0`
 - file `files-dbt` (matatika) — `git+https://github.com/Matatika/files-dbt@v1.6.2`
 - file `files-melty-ai` (matatika) — `git+https://github.com/meltano/files-melty-ai.git@v0.1.1`
@@ -33,6 +34,14 @@ recorded here.
 - utility `matatika` (matatika) — `matatika~=1.17.1`
 
 ## Pipelines
+
+### Meltano Cloud (`meltano-cloud`)
+
+- **Type:** INGESTION
+- **Schedule:** none
+- **Data components:** `tap-meltano-cloud--meltano-cloud` (tap-meltano-cloud, meltanolabs) → `Warehouse` (target-postgres, matatika)
+- **Timeout:** none
+- **Max retries:** 0
 
 ### Model Lineage (`model-lineage`)
 
